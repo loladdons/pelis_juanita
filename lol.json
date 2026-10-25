@@ -1,0 +1,23 @@
+{
+  "id": "pelis-juanita",
+  "name": "Premiere",
+  "version": "0.3.0",
+  "apiVersion": 6,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "author": "sadmachine",
+  "description": "Películas, series, anime y novelas desde pelisjuanita.org, con inicio, estrenos del año, géneros y descubrir. Junta todos los servidores disponibles para que elijas.",
+  "color": "#034f3c",
+  "theme": {
+    "accent": "#034f3c",
+    "onAccent": "#ffffff",
+    "background": "#0a0a0a",
+    "surface": "#1a1a1a",
+    "highlight": "#f0f0f0"
+  },
+  "section": { "label": "Premiere" },
+  "categories": ["movies", "series"],
+  "capabilities": ["home", "discover", "search", "meta", "streams"],
+  "episodesPagination": { "enabled": true, "perPage": 50 },
+  "config": []
+}
